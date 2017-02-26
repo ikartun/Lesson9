@@ -24,12 +24,17 @@ public class MyLinkedListExecutor {
 		System.out.println(myLinkedList);
 		
 		myLinkedList.addLast(5);
+		myLinkedList.addLast(3);
+		
+		System.out.println(myLinkedList);
 		
 		System.out.println(myLinkedList.getFirst());
 		System.out.println(myLinkedList.getLast());
 		System.out.println(myLinkedList.get(1));
 
 		System.out.println(myLinkedList.indexOf(4));
+		System.out.println(myLinkedList.lastIndexOf(3));
 	}
 }
+
 
